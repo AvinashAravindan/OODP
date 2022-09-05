@@ -1,0 +1,55 @@
+Check whether the given number is poisitive or negative::
+#include <iostream>
+using namespace std;
+int main()
+{
+    int num = 96;
+    if (num > 0)
+         cout << "The number is positive";
+    else if (num < 0)
+        cout << "The number is negative";
+    else
+        cout << "Zero";
+    return 0;
+}
+----------------------------------------------------------------------
+Find if an integer is positive or negative::
+
+#include <iostream>
+using namespace std;
+int main() {
+int number;
+  cout << "Enter an integer: ";
+  cin >> number;
+  if (number >= 0) {
+    cout << "You entered a positive integer: " << number << endl;
+  }
+  else {
+    cout << "You entered a negative integer: " << number << endl;
+  }
+  cout << "This line is always printed.";
+  return 0;}
+----------------------------------------------------------------------
+check whether the year is leap year or not
+
+#include <iostream>
+using namespace std;
+int main() {
+  int year;
+  cout << "Enter a year: ";
+  cin >> year;
+  if (year % 400 == 0) {
+    cout << year << " is a leap year.";
+  }
+  else if (year % 100 == 0) {
+    cout << year << " is not a leap year.";
+  }
+  else if (year % 4 == 0) {
+    cout << year << " is a leap year.";
+  }
+  else {
+    cout << year << " is not a leap year.";
+  }
+  return 0;
+}
+--------------------------------------------------------------------
