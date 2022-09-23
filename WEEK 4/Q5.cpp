@@ -7,7 +7,7 @@ class pyramid
 		public:
 			pyramid()
 			{
-				no=5;
+				cin>>no;
 				n=no;
 			}
 			void sol()
